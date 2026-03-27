@@ -46,6 +46,9 @@ p {
 }
 
 .project-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
   background: #1e293b;
   border: 1px solid #334155;
   border-radius: 16px;
@@ -54,12 +57,13 @@ p {
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
 }
 .project-image {
-  width: 100%;
-  max-width: 260px;
-  height: 420px;
-  object-fit: cover;
+  width: 220px;
+  height: auto;
   display: block;
-  margin-bottom: 20px;
   border-radius: 18px;
   border: 1px solid #334155;
+  flex-shrink: 0;
+}
+.project-content {
+  flex: 1;
 }
