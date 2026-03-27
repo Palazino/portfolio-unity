@@ -14,10 +14,9 @@ body {
 .hero {
   padding: 10px 0 20px 0;
 }
-
 h1 {
-  font-size: 48px;
-  margin-bottom: 16px;
+  font-size: 56px;
+  margin: 0 0 16px 0;
   color: #ffffff;
 }
 
